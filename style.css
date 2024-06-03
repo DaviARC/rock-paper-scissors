@@ -1,0 +1,18 @@
+@import url(reset.css);
+@import url(components/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap');
+
+:root{
+    --fonte-principal: "Barlow Semi Condensed", sans-serif;
+    --radial-gradient: linear-gradient(to right, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    --dark-text: hsl(229, 25%, 31%);
+    --score-text: hsl(229, 64%, 46%);
+    --header-outline: hsl(217, 16%, 45%);
+    --white: #ffffff;
+}
+
+body{
+    padding: 30px;
+    background: var(--radial-gradient);
+    font-family: var(--fonte-principal);
+}
