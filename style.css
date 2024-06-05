@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(components/header.css);
+@import url(components/icon.css);
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap');
 
 :root{
@@ -15,4 +16,7 @@ body{
     padding: 30px;
     background: var(--radial-gradient);
     font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
 }

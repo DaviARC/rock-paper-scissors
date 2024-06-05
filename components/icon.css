@@ -1,0 +1,96 @@
+.cont-triangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.triangle-main{
+    width: 250px;
+    height: 100%;
+}
+.cont-icons{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+.color-paper, .color-scissor, .color-rock{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%; 
+    z-index: 2;
+}
+.color-paper{
+    background: linear-gradient(to top, hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+}
+.color-scissor{
+    background: linear-gradient(to top, hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+}
+.color-rock{
+    background: linear-gradient(to top, hsl(349, 71%, 52%),hsl(349, 70%, 56%));
+}
+.paper, .scissor, .rock{
+    position: absolute;
+    top: 0;
+    height: 125px;
+    width: 125px;
+    top: -10px;
+}
+.scissor{
+    right: 0;
+}
+.rock{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+}
+.sombra-paper, .sombra-scissor, .sombra-rock{
+    top: 7.5px;
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.sombra-paper{
+    background-color: #2846C3;
+}
+.sombra-scissor{
+    background-color: #C26C1C;
+}
+.sombra-rock{
+    background-color: #9A1838;
+}
+.icon{
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.branco{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 3;
+}
+.sombra-branco{
+    z-index: 2;
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #BCC1D7;
+}
+
